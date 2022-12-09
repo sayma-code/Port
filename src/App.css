@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* #14111c
+#b599ff
+#7a7a7a
+*/
+*{
+  background-color: #14111c;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  margin-left: 5%;
+  margin-right: 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.linke{
+  text-decoration: none;
+  color: #d1d1d1;
+  padding: 1rem;
+}
+.linke:hover {
+  color: #b599ff;
+}
+.head{
+  margin: 10%;
+  margin-left: 22%;
+  margin-right: 28%;
+  border-right: 5px solid #b599ff;
+}
+.head .text1{
+  color: #b599ff;
+  font-size: larger;
+}
+.head .text2{
+  color: #d1d1d1;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.head .text3{
+  color: #d1d1d1;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.head .text4{
+  color: #d1d1d1;
+  margin-right: 15%;
+}
+.about{
+  margin: 10%;
+  margin-left: 25%;
+  margin-right: 22%;
+  padding-left: 2rem;
+  border-left: 5px solid #b599ff;
+}
+.about .text1{
+  color: #b599ff;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.about .text2{
+  color: #d1d1d1;
+  padding: 1rem;
+  padding-bottom: 1rem;
+}
+.about .text3{
+  color: #d1d1d1;
+  padding-left: 1rem;
+}
+.about .text3 .icon{
+  color: #b599ff;
+}
+.about .text3 .langu{
+  color: #d1d1d1;
+  margin-right: 5%;
+}
+.work{
+  margin-bottom: 10%;
+} 
+.work .text1{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 22%;
+  margin-right: 28%;
+  color: #b599ff;
+  font-size: 3rem;
+  padding: 1rem;
+  border-right: 5px solid #b599ff;
+}
+ .work .project1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  margin-left: 23%;
 }
-
-.App-link {
-  color: #61dafb;
+ .work .project1 .workimage1{
+  width: 40rem;
+  position: relative;
 }
+/* .work .project1 .worktext1{
+  margin-left:80%;
+  margin-top: 10%;
+  padding: 1rem;
+  width: 35rem;
+  position: absolute;
+  z-index: 10;
+} */
+.work .project1 .worktext1 .wtext1{
+  float: right;
+}
+.work .project1 .worktext1 .wtext2{
+  float: right;
+  background-color: #171324;
+}
+.work .project1 .worktext1 .wtext3{
+  font-weight: 700;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.work .project1 .worktext1 .wtext4{
+  color: #d1d1d1;
+
+
 }
