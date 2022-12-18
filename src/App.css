@@ -4,17 +4,32 @@
 #7a7a7a
 */
 *{
-  background-color: #14111c;
+  background-color: #14111c ;
+}
+.lav{
+  color: #b599ff;
+  padding-right: 9px;
+}
+.resume{
+  border-color: #b599ff;
+  padding: 8px 15px;
+  color: #b599ff;
+  margin-top: -5px;
 }
 .navbar{
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .logo{
-  height: 50px;
-  width: 50px;
+  margin-top: 5px;
+  height: 70px;
+  width: 40px;
+  animation: drop 4000ms ease;
+  animation-iteration-count: infinite;
 }
 .linke{
+  margin-top: 5px;
   text-decoration: none;
   color: #d1d1d1;
   padding: 1rem;
@@ -46,6 +61,12 @@
   color: #d1d1d1;
   margin-right: 15%;
 }
+.contact-side{
+  position: fixed;
+  top: 80;
+  left: 20;
+  border: 0;
+}
 .about{
   margin: 10%;
   margin-left: 25%;
@@ -76,7 +97,7 @@
 }
 .work{
   margin-bottom: 10%;
-} 
+}
 .work .text1{
   margin-top: 10%;
   margin-bottom: 5%;
@@ -87,36 +108,203 @@
   padding: 1rem;
   border-right: 5px solid #b599ff;
 }
- .work .project1{
+.work .project {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+/* Project */
+ .work .project .project1{
   display: flex;
   position: relative;
-  margin-left: 23%;
+  margin-bottom: 10%;
 }
- .work .project1 .workimage1{
-  width: 40rem;
+.work .project .project2{
+  display: flex;
+  position: relative;
+  margin-bottom: 10%;
+}
+.work .project .project3{
+  display: flex;
   position: relative;
 }
-/* .work .project1 .worktext1{
-  margin-left:80%;
-  margin-top: 10%;
-  padding: 1rem;
-  width: 35rem;
+/* Image */
+ .work .project .project1 .workimage1{
+  background-image: url('/public/images/consultancy_front.JPG');
+  width: 40rem;
+  height: 23rem;
+  background-size: cover;
+}
+.work .project .project1 .workimage1-overlay{
+  width: 40rem;
+  height: 23rem;
+  background-color: #b599ff;
+  opacity: 0.4;
+}
+.work .project .project2 .workimage2{
+  width: 40rem;
+  margin-left: 38%;
+}
+.work .project .project3 .workimage3{
+  width: 40rem;
+  
+}
+
+/* Text -1 */
+.work .project .project1 .worktext1{
   position: absolute;
   z-index: 10;
-} */
-.work .project1 .worktext1 .wtext1{
-  float: right;
+  margin-left:55%;
+  background: none;
 }
-.work .project1 .worktext1 .wtext2{
-  float: right;
-  background-color: #171324;
-}
-.work .project1 .worktext1 .wtext3{
+.work .project .project1 .worktext1 .wtext1{
+  margin-left:40%;
+  color: #d1d1d1;
   font-weight: 700;
-
+  font-size: x-large;
+  margin-bottom: 5%;
 }
-.work .project1 .worktext1 .wtext4{
+.work .project .project1 .worktext1 .wtext2{
+  margin-top: 10%;
+  background-color: #201a34;
+  
+  color: #d1d1d1;
+  padding: 1rem;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.work .project .project1 .worktext1 .wtext3{
+  margin-left:20%;
   color: #d1d1d1;
 
+}
+.work .project .project1 .worktext1 .wtext4{
+  margin-left:20%;
+  color: #d1d1d1;
+  
+}
 
+/* Text -2 */
+ .work .project .project2 .worktext2{
+  position: absolute;
+  z-index: 10;
+  width: 45%;
+  background-color: transparent;
+} 
+.work .project .project2 .worktext2 .wtext1{
+  color: #d1d1d1;
+  font-weight: 700;
+  font-size: x-large;
+  margin-bottom: 5%;
+  background-color: transparent;
+}
+.work .project .project2 .worktext2 .wtext2{
+
+  margin-top: 5%;
+  background-color: #201a34;
+  color: #d1d1d1;
+  padding: 1rem;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+.work .project .project2 .worktext2 .wtext3{
+  background-color: transparent !important;
+  color: #d1d1d1;
+  margin-right: 30%;
+}
+.work .project .project2 .worktext2 .wtext4{
+  color: #d1d1d1;
+  margin-right: 30%;
+}
+
+
+/* Text -3 */
+.work .project .project3 .worktext3{
+  position: absolute;
+  z-index: 10;
+  margin-left:55%;
+  background: none;
+}
+.work .project .project3 .worktext3 .wtext1{
+  margin-left:40%;
+  color: #d1d1d1;
+  font-weight: 700;
+  font-size: x-large;
+  margin-bottom: 5%;
+}
+.work .project .project3 .worktext3 .wtext2{
+  margin-top: 10%;
+  background-color: #201a34;
+  
+  color: #d1d1d1;
+  padding: 1rem;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.work .project .project3 .worktext3 .wtext3{
+  margin-left:20%;
+  color: #d1d1d1;
+
+}
+.work .project .project3 .worktext3 .wtext4{
+  margin-left:20%;
+  color: #d1d1d1;
+}
+.other{
+  margin-left: 23%;
+  margin-right: 22%;
+}
+.other .other-text{
+  font-size: 2rem;
+  font-weight: larger;
+  padding: 1rem;
+  color: #d1d1d1;
+  text-align: center;
+  margin: 5%;
+}
+.other .other-project{
+  background-color: #201a34;
+  width: 21rem;
+  margin: 5px;
+}
+.contact{
+  text-align: center;
+  margin: 10%;
+}
+.contact .contact-head1{
+  color: #b599ff;
+}
+.contact .contact-head2{
+  color: #d1d1d1;
+  font-size: 3rem;
+  font-weight: larger;
+}
+.contact .contact-body{
+  width: 31rem;
+  margin: 2%;
+  margin-left: 33%;
+  color: #a59db8;
+}
+.contact .contact-footer{
+  margin: 5%;
+  color: #b599ff;
+}
+.contact .contact-footer .contact-button{
+  border-color: #b599ff;
+  padding: 15px 32px;
+  color: #b599ff;
+}
+
+
+@keyframes drop {
+
+	0% {
+    transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(90deg);
+	}
+  100% {
+		transform: rotate(90deg);
+	}
 }
